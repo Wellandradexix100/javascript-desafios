@@ -14,4 +14,4 @@ Projeto simples feito com HTML, CSS e JavaScript para converter graus Celsius em
 2. Clique em "Converter"
 3. Veja o resultado na tela
 
-Feito por [Seu Nome]
+Feito por Wellington Andrade
