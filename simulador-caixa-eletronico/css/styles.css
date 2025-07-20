@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001f3f;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #003366;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #00ffff;
+}
+
+input {
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+button {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #00cc66;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00994d;
+}
+
+#resultado-saque {
+  margin-top: 1.5rem;
+  background-color: #002244;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #ffffff;
+  text-align: left;
+}
+
+#resultado-saque ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#resultado-saque li {
+  padding: 4px 0;
+  font-size: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+.sucesso {
+  color: rgb(9, 255, 0);
+}
